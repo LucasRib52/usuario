@@ -19,4 +19,6 @@ public class Telefone {
     private String ddd;
     @Column(name = "numero", length = 10)
     private String numero;
+    @Column(name = "usuario_id")
+    private Long usuario_id;
 }
