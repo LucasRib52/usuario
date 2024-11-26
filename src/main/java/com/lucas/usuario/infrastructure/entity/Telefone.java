@@ -18,5 +18,5 @@ public class Telefone {
     @Column(name = "ddd", length = 3)
     private String ddd;
     @Column(name = "numero", length = 10)
-    private String telefone;
+    private String numero;
 }
